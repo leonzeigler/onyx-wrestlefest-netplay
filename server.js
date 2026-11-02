@@ -50,7 +50,7 @@ const SLOT_HOLD_MS = 45000;          // how long a dropped slot stays reserved
 const FRAME_BACKUP_LIMIT = 512000;   // skip frames for sockets backed up past this
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 const INPUT_KEYS = ['left', 'right', 'up', 'down', 'punch', 'kick',
-  'grapple', 'whip', 'fin', 'run', 'tag', 'apron', 'start'];
+  'grapple', 'whip', 'fin', 'run', 'tag', 'apron', 'start', 'guard', 'counter'];
 
 const rooms = new Map(); // code -> room
 // room = { code, host: slotRec|null, guests: Map<slot, slotRec>, frameSeq }
