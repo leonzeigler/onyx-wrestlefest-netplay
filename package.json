@@ -1,0 +1,1 @@
+{"dependencies":{"ws":"^8.18.0"},"description":"Onyx WrestleFest online multiplayer relay — rooms, host + up to 5 guests, reconnection, sequenced inputs and frames.","engines":{"node":">=18"},"name":"onyx-wrestlefest-multiplayer","private":true,"scripts":{"start":"node server.js"},"version":"2.0.0"}
